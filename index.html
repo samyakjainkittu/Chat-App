@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samvad</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <nav>
+        <img src="logo.png" alt="" class="logo">
+    </nav>
+
+    <div class="container">
+        <!-- <div class="message right"> Samyak : Hey how are you</div>
+        <div class=" center"> Ram Joined the chat</div>
+        <div class="message left"> Ram : I am fine</div> -->
+    </div>
+
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp">
+            <button class="btn" type="submit"><i class="fa fa-send-o" style="font-size:20px;color:red"></i> </button>
+        </form>
+    </div>
+
+
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="client.js"></script>
+</body>
+
+</html>
